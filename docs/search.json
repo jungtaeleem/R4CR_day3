@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "markdown.html",
+    "href": "markdown.html",
+    "title": "markdown",
+    "section": "",
+    "text": "마크다운 기초 실습\n\n렌더 (Viewer)\n헤더\nBold / Italic\n링크\n이미지\n콜아웃\n리스트 . 숫자 리스트\n코드\n구분자\n취소선"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hello, Quarto",
+    "section": "",
+    "text": "My Quarto Page"
+  },
+  {
+    "objectID": "index.html#meet-quarto",
+    "href": "index.html#meet-quarto",
+    "title": "Hello, Quarto",
+    "section": "Meet Quarto",
+    "text": "Meet Quarto\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "index.html#meet-the-penguins",
+    "href": "index.html#meet-the-penguins",
+    "title": "Hello, Quarto",
+    "section": "Meet the penguins",
+    "text": "Meet the penguins\n\nThe penguins data from the palmerpenguins package contains size measurements for 344 penguins from three species observed on three islands in the Palmer Archipelago, Antarctica.\nThe plot below shows the relationship between flipper and bill lengths of these penguins."
+  }
+]

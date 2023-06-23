@@ -1,7 +1,14 @@
 ---
 title: "Hello, Quarto"
+# Subtitle: "R4CR Quarto 실습"
+# Author: julcho
+# Categories:[Quarto, palmerperguins, R]
+# toc: true
+# toc-location: right
+# date: last-modified
 format: html
 editor: visual
+
 ---
 
 ```{r}
@@ -25,19 +32,30 @@ The `penguins` data from the [**palmerpenguins**](https://allisonhorst.github.io
 The plot below shows the relationship between flipper and bill lengths of these penguins.
 
 ```{r}
-#| label: plot-penguins
-#| warning: false
+#| eval: true
 #| echo: false
 
-ggplot(penguins, 
-       aes(x = flipper_length_mm, y = bill_length_mm)) +
-  geom_point(aes(color = species, shape = species)) +
-  scale_color_manual(values = c("darkorange","purple","cyan4")) +
-  labs(
-    title = "Flipper and bill length",
-    subtitle = "Dimensions for penguins at Palmer Station LTER",
-    x = "Flipper length (mm)", y = "Bill length (mm)",
-    color = "Penguin species", shape = "Penguin species"
-  ) +
-  theme_minimal()
+
+x<-2
+y<-3
+
+print(x+y)
+
+```
+```{r}
+head(iris)
+```
+
+```{r}
+knitr::kable(head(iris))
+```
+
+```{r}
+reactable::reactable(head(iris))
+```
+
+
+
+```{r}
+DT::datatable(head(iris))
 ```
